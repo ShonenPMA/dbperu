@@ -1,5 +1,5 @@
 <?php
-
+namespace Shonen\DbPeru\Database\Seeds;
 use Illuminate\Database\Seeder;
 
 class RegionsTableSeeder extends Seeder
