@@ -15,13 +15,13 @@
     "autoload" : {
     	"psr-4":{
     		"Shonen\\DbPeru\\" : "src/",
-    		"Shonen\\DbPeru\\Database\\Seeds": "database/seeds/"
+    		"Shonen\\DbPeru\\Database\\Seeds\\": "database/seeds/"
     	}
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Shonen\\DbPeru\\DbPeruServiceProvider",
+                "Shonen\\DbPeru\\DbPeruServiceProvider"
             ]
         }
     }
