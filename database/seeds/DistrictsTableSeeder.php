@@ -1,7 +1,7 @@
 <?php
-
+namespace Shonen\DbPeru\Database\Seeds;
 use Illuminate\Database\Seeder;
-
+use Illuminate\Support\Facades\DB;
 class DistrictsTableSeeder extends Seeder
 {
     /**
