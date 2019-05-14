@@ -13,9 +13,9 @@ class DbPeruServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadMigrationsFrom(__DIR__.'/src/database/migrations');
+        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         $this->publishes([
-                __DIR__.'/src/database/migrations' => database_path('migrations'),
+                __DIR__.'/../database/migrations' => database_path('migrations'),
             ], 'shonen-migrations');
     }
 
