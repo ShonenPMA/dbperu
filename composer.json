@@ -16,5 +16,13 @@
     	"psr-4":{
     		"Shonen\\DbPeru\\" : "src/"
     	}
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shonen\\DbPeru\\DbPeruServiceProvider"
+            ]
+        }
     }
+
 }
